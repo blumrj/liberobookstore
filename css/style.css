@@ -1,0 +1,150 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: futura-pt-heavy;
+  src: url(../fonts/FuturaPTHeavy.otf);
+}
+
+@font-face {
+  font-family: logofont;
+  src: url(../fonts/coco-gothic.regular.ttf);
+}
+
+@font-face {
+  font-family: futura-pt;
+  src: url(../fonts/FuturaPTBook.otf);
+}
+
+@font-face {
+  font-family: bogart-h1;
+  src: url(../fonts/Bogart-Black-trial.ttf);
+}
+
+body {
+  overflow-x: hidden;
+  font-family: futura-pt !important;
+  background-color: #e6e2dd !important;
+}
+
+.brown {
+  background-color: #a56c46 !important;
+}
+
+.green {
+  background-color: #168758 !important;
+}
+
+.white {
+  color: #e6e2dd !important;
+}
+
+.yellow {
+  color: #f4db7d !important;
+}
+
+.black {
+  background-color: #202020 !important;
+}
+
+.orange {
+  color: #f4793f !important;
+}
+
+.orange2 {
+  color: #ee9855 !important;
+}
+
+.hover:hover {
+  color: #f4db7d !important;
+}
+
+.navbar-brand {
+  font-family: logofont;
+  font-size: 2rem !important;
+}
+
+.pt-10 {
+  padding-top: 10%;
+}
+
+.pt-20 {
+  padding-top: 20%;
+}
+
+nav {
+  font-family: futura-pt;
+  font-size: 1.5rem;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+h1 {
+  font-family: bogart-h1;
+  color: #f4db7d;
+  font-size: 3.5rem !important;
+}
+
+#main h2, #main h3 {
+  color: #00483c;
+  font-family: futura-pt-heavy !important;
+  text-transform: uppercase;
+}
+
+#h1color {
+  color: #168758 !important;
+}
+
+.card {
+  max-width: 500px !important;
+  background-color: #e6e2dd !important;
+  border: none !important;
+}
+
+.ta {
+  text-align: -webkit-center;
+}
+
+@media screen and (max-width: 576px) {
+  .figure-img {
+    max-width: 20% !important;
+  }
+  figure {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  h1 {
+    font-size: 2.5rem !important;
+  }
+  h2 {
+    font-size: 1.5rem !important;
+  }
+  h3 {
+    font-size: 1.2rem !important;
+  }
+  .figure-img {
+    max-width: 25% !important;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .figure-img {
+    max-width: 30% !important;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .figure-img {
+    max-width: 35% !important;
+  }
+}
+/*# sourceMappingURL=style.css.map */
